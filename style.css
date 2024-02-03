@@ -380,6 +380,37 @@ hr {
   width: 80%;
 }
 
+/* WORK */
+
+.cert {
+  text-align: center;
+}
+
+.cert_container {
+  row-gap: 2rem;
+}
+
+.cert_img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  height: 90px;
+  width: 90px;
+  align-content: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cert_img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.cert_img img:hover {
+  transform: scale(1.1);
+}
 
 
 /* WORK */
